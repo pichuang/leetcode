@@ -1,18 +1,18 @@
 import unittest
 
 class Solution(object):
-    def reverseWords(self, s):
+    def reverseString(self, s):
         """
         :type s: str
         :rtype: str
         """
-        return 
+        return s[::-1]
 
 class test_Solution(unittest.TestCase):
     
     def test(self):
         s = Solution()
-        self.assertEqual()
+        self.assertEqual(s.reverseString("hello"), "olleh")
 
 if __name__ == '__main__':
     unittest.main()
